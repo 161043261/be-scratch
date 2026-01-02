@@ -1,0 +1,22 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.20.0",
+  "dependencies": {
+    "@elastic/elasticsearch": "^9.2.0",
+    "node-rdkafka": "^3.6.1",
+    "redis": "^5.10.0"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^25.0.3"
+  }
+}
